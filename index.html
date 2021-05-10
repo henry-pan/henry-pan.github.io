@@ -1,364 +1,185 @@
-<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
-<head>
-    <title>Henry Pan's Website</title>
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Henry Pan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="description" content="The personal website of Henry Pan.">
     <meta name="author" content="Henry Pan">    
     <link rel="shortcut icon" href="favicon.ico">  
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <!-- Global CSS -->
-    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
-    <!-- Plugins CSS -->
-    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-    
-    <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108858627-1"></script>
-        <script>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-8QPZC2E3KK"></script>
+		<script>
 			window.dataLayer = window.dataLayer || [];
 			function gtag(){dataLayer.push(arguments);}
 			gtag('js', new Date());
-			gtag('config', 'UA-108858627-1');
-    </script>
-</head>
+			gtag('config', 'G-8QPZC2E3KK');
+		</script>
+	</head>
 
-<body>
-    <div class="wrapper">
-        <div class="sidebar-wrapper">
-            <div class="profile-container">
-                <img class="profile" src="assets/images/profile.jpg" alt="Henry Pan portrait." title="That's me." />
-                <h1 class="name">Henry Pan</h1>
-                <h3 class="tagline">Software Engineer</h3>
-            </div><!--//profile-container-->  
-			
-			<div style="text-align: center;padding: 30px 30px 0px 30px">
-				<a class="btn btn-cta-primary" href="resume.pdf" target="_blank" title="Download"><i class="fa fa-file"></i> My Resume</a> 
+	<body class="is-preload">
+
+		<section id="header">
+			<header>
+				<span class="image avatar"><img src="assets/images/avatar.jpg" alt="" /></span>
+				<h1 id="logo"><a href="#">Henry Pan</a></h1>
+				<p>Software Engineer</p>
+			</header>
+			<nav id="nav">
+				<ul>
+					<li><a href="#one" class="active">About</a></li>
+					<li><a href="#two">Projects</a></li>
+					<li><a href="#three">Skills</a></li>
+					<li><a href="#four">Contact</a></li>
+				</ul>
+			</nav>
+			<footer>
+				<ul class="icons">
+					<li><a href="https://github.com/henry-pan" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<li><a href="https://www.linkedin.com/in/henry-pan" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://angel.co/u/henrypan" class="icon brands fa-angellist"><span class="label">Angellist</span></a></li>
+					<li><a href="https://twitter.com/StudioXehryn" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+				</ul>
+			</footer>
+		</section>
+
+
+		<div id="wrapper">
+			<div id="main">
+				<section id="one">
+					<div class="image main" data-position="center">
+						<img src="assets/images/banner.jpg" alt="" />
+					</div>
+					<div class="container">
+						<header class="major">
+							<h2>Henry Pan</h2>
+							<p>Software Engineer and Independent Game Developer</p>
+						</header>
+						<p>I am a Software Engineer with a passion for building products. During my spare time, I work as an independent game developer. I enjoy game design, creative writing, worldbuilding, music, and digital art as well. As a result, I created an independent game studio (Studio Xehryn) with my fellow artists to develop quality games for players to experience and enjoy.</p>
+						<p>I've been writing code since high school and have been interested in computer technology ever since childhood. This led me to study at University of California, Santa Cruz to further my knowledge, earning a Bachelor's Degree in Computer Science. There I learned a variety of topics and skills, including Android development, web development, algorithms, databases, artificial intelligence, and software engineering. Afterwards, I discovered full stack development and decided to attend App Academy.</p>
+						<p>With my experience from both university and App Academy, I am now seeking a full-time software engineering opportunity to further develop my skills technically and professionally.</p>
+						<a href="resume.pdf" class="button primary icon solid fa-download">Resume</a>
+					</div>
+				</section>
+
+				<section id="two">
+					<div class="container">
+						<h3>Projects</h3>
+						<div class="features">
+							<article>
+								<a href="#" class="image"><img src="assets/images/pic01.jpg" alt="" /></a>
+								<div class="inner">
+									<h4>Gate of Providence</h4>
+									<p>2D RPG.</p>
+									<a href="#" class="button primary icon solid fa-cloud">Live</a>
+								</div>
+							</article>
+							<article>
+								<a href="#" class="image"><img src="assets/images/pic02.jpg" alt="" /></a>
+								<div class="inner">
+									<h4>Dreamshot Dissonance</h4>
+									<p>2D Bullet Hell.</p>
+									<a href="#" class="button primary icon solid fa-cloud">Live</a>
+									<a href="#" class="button icon brands fa-github">Source</a>
+								</div>
+							</article>
+							<article>
+								<a href="#" class="image"><img src="assets/images/pic03.jpg" alt="" /></a>
+								<div class="inner">
+									<h4>Resonator</h4>
+									<p>2D Bullet Hell.</p>
+									<a href="#" class="button primary icon solid fa-cloud">Live</a>
+									<a href="#" class="button icon brands fa-github">Source</a>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+
+				<section id="three">
+					<div class="container">
+						<h3>Skills</h3>
+						<p>Languages and Technologies I'm proficient with</p>
+						<div class="skill-icon-container">
+								<div class="skill-icon">
+									<i class="devicon-javascript-plain colored"></i>
+								</div>
+								<div class="skill-icon">
+									<i class="devicon-react-original colored"></i>
+								</div>
+								<div class="skill-icon">
+									<i class="devicon-redux-original colored"></i>
+								</div>
+								<div class="skill-icon">
+									<i class="devicon-ruby-plain colored"></i>
+								</div>
+								<div class="skill-icon">
+									<i class="devicon-rails-plain colored"></i>
+								</div>
+								<div class="skill-icon">
+									<i class="devicon-postgresql-plain colored"></i>
+								</div>
+								<div class="skill-icon">
+									<i class="devicon-html5-plain colored"></i>
+								</div>
+								<div class="skill-icon">
+									<i class="devicon-css3-plain colored"></i>
+								</div>
+								<div class="skill-icon">
+									<i class="devicon-mongodb-plain colored"></i>
+								</div>
+								<div class="skill-icon">
+									<i class="devicon-express-original colored"></i>
+								</div>
+								<div class="skill-icon">
+									<i class="devicon-nodejs-plain colored"></i>
+								</div>
+								<div class="skill-icon">
+									<i class="devicon-python-plain colored"></i>
+								</div>
+								<div class="skill-icon">
+									<i class="devicon-git-plain colored"></i>
+								</div>
+								<div class="skill-icon">
+									<i class="devicon-sass-original colored"></i>
+								</div>
+								<div class="skill-icon">
+									<i class="devicon-java-plain colored"></i>
+								</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="four">
+					<div class="container">
+						<h3>Contact Me</h3>
+						<p>Interested in reaching out? Email me or DM on Twitter!</p>
+						<p>Email: henry.pan.dev@gmail.com</p>
+						<p>Twitter: @StudioXehryn</p>
+					</div>
+				</section>
+
 			</div>
-			
-            <div class="contact-container container-block">
-                <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: henry.pan.dev@gmail.com">henry.pan.dev@gmail.com</a></li>
-                    <li class="linkedin"><i class="fa fa-linkedin-square"></i><a href="https://www.linkedin.com/in/henry-pan/" target="_blank">linkedin.com/in/henry-pan</a></li>
-                    <li class="github"><i class="fa fa-github"></i><a href="https://github.com/henry-pan" target="_blank">github.com/henry-pan</a></li>
-                    <li class="angellist"><i class="fa fa-angellist"></i><a href="https://angel.co/u/henrypan" target="_blank">angel.co/u/henrypan</a></li>
-                    <li class="website"><i class="fa fa-globe"></i><a href="http://www.xehryn.com" target="_blank">xehryn.com</a></li>
-                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/StudioXehryn" target="_blank">@StudioXehryn</a></li>
-                </ul>
-            </div><!--//contact-container-->
-            <div class="education-container container-block">
-                <h2 class="container-block-title">Education</h2>
-                <div class="item">
-                    <h4 class="degree">BS, Computer Science</h4>
-                    <h5 class="meta">University of California, Santa Cruz</h5>
-                    <div class="time">2013 - 2017</div>
-                </div><!--//item-->
-            </div><!--//education-container-->
-            
-            <div class="languages-container container-block">
-                <h2 class="container-block-title">Languages</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>English <span class="lang-desc">(Native)</span></li>
-                    <li>Cantonese <span class="lang-desc">(Familiar)</span></li>
-                    <li>Mandarin <span class="lang-desc">(Elementary)</span></li>
-                </ul>
-            </div><!--//interests-->
-            
-            <div class="interests-container container-block">
-                <h2 class="container-block-title">Interests</h2>
-                <ul class="list-unstyled interests-list">
-                    <li>Programming</li>
-                    <li>Game Design / Development</li>
-                    <li>Worldbuilding</li>
-                    <li>Digital Art / Drawing</li>
-                    <li>Music</li>
-                    <li>Video Editing</li>
-                </ul>
-            </div><!--//interests-->
-            
-        </div><!--//sidebar-wrapper-->
-        
-        <div class="main-wrapper">
-            
-            <section class="section summary-section">
-                <h2 class="section-title"><i class="fa fa-user"></i>About Me</h2>
-                <div class="summary">
-                    <p>I am a Software Engineer with a passion for building products, and experienced in JavaScript, Ruby, React, Redux, Ruby on Rails, PostgreSQL, HTML5, and CSS3.</p>
-                    <p>During my spare time, I work as an independent game developer. I enjoy game design, creative writing, worldbuilding, music, and digital art as well. As a result, I created an independent game studio (Studio Xehryn) with my fellow artists to develop quality games for players to experience and enjoy.</p>
-                    <p>I've been writing code since high school and have been interested in computer technology ever since childhood. This led me to study at University of California, Santa Cruz to further my knowledge, earning a Bachelor's Degree in Computer Science. There I learned a variety of topics and skills, including Android development, web development, algorithms, databases, artificial intelligence, and software engineering. Afterwards, I discovered fullstack development and decided to attend App Academy.</p>
-                    <p>With my experience from both university and App Academy, I am now seeking a full-time software engineering opportunity to further develop my skills technically and professionally.</p>
-				</div><!--//summary-->
-            </section><!--//section-->
-            
-            <section class="section experiences-section">
-                <h2 class="section-title"><i class="fa fa-briefcase"></i>Current Projects</h2>
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title">Studio Xehryn</h3>
-                            <div class="time">2014 - Present</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Independent Game Development Studio</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>All of my games are released under Studio Xehryn. Here, devblogs, free art assets, and music can be found as well.</p>
-                    </div><!--//details-->
-                </div><!--//item-->
 
-                
-            </section><!--//section-->
-            
-            <section class="section projects-section">
-                <h2 class="section-title"><i class="fa fa-file-archive-o"></i>Projects</h2>
-                <div class="intro">
-                    <p>These are projects I've worked on in the past. Most of them have source code available for viewing on GitHub as well.</p>
-                </div><!--//intro-->
+			<section id="footer">
+				<div class="container">
+					<ul class="copyright">
+						<li>&copy; Henry Pan</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</section>
 
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title"><a href="https://resonator.henry-pan.com/">Resonator</a></h3>
-                            <div class="time">2021</div>
-                        </div><!--//upper-row-->
-                        <div class="company">2D Shoot 'em Up / Bullet Hell Game</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Made with vanilla JavaScript.</p>
-                    </div><!--//details-->
-                </div><!--//item-->
+		</div>
 
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title"><a href="https://choosyapp.herokuapp.com/">Choosy</a></h3>
-                            <div class="time">2021</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Web Application - Idea-Voting for Indecisive People</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Made with MongoDB, Express.js, React/Redux, Node.js.</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title"><a href="https://sonusstratos.herokuapp.com/">SonusStratos</a></h3>
-                            <div class="time">2021</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Web Application - Audio Sharing / Listening Platform</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Made with React/Redux for frontend and Ruby on Rails for backend.</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title"><a href="http://www.xehryn.com/gop">Gate of Providence</a></h3>
-                            <div class="time">August 2014 - November 2017</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Turn-Based 2D Role-Playing Game</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Created using the RPG Maker VX Ace Engine with a team of four, with over 4300 hours of development time. The game itself contains over 15 hours of playable content. You can find more details on this game <a href="http://www.xehryn.com/gop">here</a>. The game has been viewed 36000+ times and downloaded 1400+ times. I was the Lead Developer and Director (and all sorts of other things as well) for this project.</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title"><a href="http://www.xehryn.com/dd">Dreamshot Dissonance</a></h3>
-                            <div class="time">April 2014 - June 2014</div>
-                        </div><!--//upper-row-->
-                        <div class="company">2D Shoot 'em Up / Bullet Hell Game</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Created using GameMaker: Studio. The game was chosen as an honorable mention in the finalist selection for the class it was made in. More details on this game can be found <a href="http://www.xehryn.com/dd">here</a>. I was the lead designer and artist for this game, as well as the composer for some of the soundtrack.</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title"><a href="https://github.com/henry-pan/NutriFit">NutriFit</a></h3>
-                            <div class="time">October 2016 - December 2016</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Android Application - Health / Fitness</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>This Android app helps track calories / macronutrients and workouts. Includes a barcode scanner for easier food data entry. I was a Scrum Master and front-end developer for the Exercise portion of the application. The general design and structure of the application was also created by me.</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title"><a href="https://github.com/henry-pan/GameDay">Game Day</a></h3>
-                            <div class="time">November 2016 - December 2016</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Web Application - Gaming News and Calendar Aggregate</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>This web application tracks release dates of upcoming video games (acquired from the IGDB API) and displays them in a calendar for ease of access. Each game also has a page in which users can have discussions and "like" a game. Users can even private message each other. The front page of the webapp also shows news in gaming. I was a front-end developer for this project.</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title"><a href="https://github.com/henry-pan/AnimeAlert">AnimeAlert</a></h3>
-                            <div class="time">March 2016 - March 2016</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Android Application - Notification / Discovery Service of Anime</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>This Android app gathers the airing times/dates of Japanese animated TV shows (known as Anime) and provides a method of keeping track of them via the Android Calendar. Notifications are pushed to the user from 5 minutes to 6 hours before a show's airing time. Users can learn more about a certain show via information from MyAnimeList. I was a front-end developer for this project. I worked on the design/layout of the application as well as image/data scraping.</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title"><a href="https://github.com/henry-pan/IFEI">IFEI - Interactive Fiction Engine and Interpreter</a></h3>
-                            <div class="time">February 2016 - March 2016</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Game Engine for Text Adventure games</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>This is a game engine/interpreter written from scratch in both Haskell and Java. It allows for the easy creation of text adventure games, simply by editing a text file. I worked on the Haskell program, as well as the overall design and structure of the program(s).</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                <div class="item">
-                    <div class="meta">
-                        <div class="upper-row">
-                            <h3 class="job-title"><a href="https://github.com/henry-pan/Support">Support</a></h3>
-                            <div class="time">January 2016 - January 2016</div>
-                        </div><!--//upper-row-->
-                        <div class="company">Service - Volunteer-Needy Matchmaking</div>
-                    </div><!--//meta-->
-                    <div class="details">
-                        <p>Service/Website made during HackUCSC 2016. The service takes volunteers who register from the website and pairs them up with the needy who register via SMS. The volunteer will receive the necessary information to help the matched person-in-need. I wrote the matching algorithm, and helped with the database and website.</p>
-                    </div><!--//details-->
-                </div><!--//item-->
-                
-                
-                
-            </section><!--//section-->
-            
-            <section class="skills-section section">
-                <h2 class="section-title"><i class="fa fa-bar-chart"></i>Skills &amp; Proficiency</h2>
-                <div class="skillset">
-                    <div class="item">
-                        <h3 class="level-title">JavaScript</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="100%"></div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">Ruby</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="100%"></div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">React</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="100%"></div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">Redux</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="100%"></div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">Ruby on Rails</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="100%"></div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">HTML5 / CSS3</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="100%"></div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">PostgreSQL</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="95%"></div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">MongoDB</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="95%"></div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">Express.js</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="90%"></div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">Node.js</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="90%"></div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">Python</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="85%"></div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">Git</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="85%"></div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="level-title">Photoshop</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="80%"></div>                                      
-                        </div><!--//level-bar-->                                 
-                    </div><!--//item-->
-                </div>  
-            </section><!--//skills-section-->
-            
-        </div><!--//main-body-->
-    </div>
- 
-    <footer class="footer">
-        <div class="text-center">
-                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">&copy; Henry Pan | Design by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small>
-        </div><!--//container-->
-    </footer><!--//footer-->
- 
-    <!-- Javascript -->          
-    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
-    <!-- custom js -->
-    <script type="text/javascript" src="assets/js/main.js"></script>            
-</body>
-</html> 
-
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
