@@ -3041,7 +3041,7 @@ input, select, textarea {
 					font-weight: 700;
 					height: 44px;
 					line-height: 44px;
-					padding: 0 5em;
+					padding: 0 6em;
 					width: 100%;
 					text-align: left;
 				}
@@ -3056,7 +3056,7 @@ input, select, textarea {
 					height: 4em;
 					position: absolute;
 					top: 0;
-					width: 6em;
+					width: 4em;
 					border: 0;
 					outline: 0;
 					left: 0;
@@ -3086,7 +3086,7 @@ input, select, textarea {
 						position: absolute;
 						text-align: center;
 						top: 0;
-						width: 64px;
+						width: 4em;
 						left: 0;
 					}
 
@@ -3231,17 +3231,6 @@ input, select, textarea {
 					}
 
 		/* Header Panel */
-
-			#titleBar .toggle {
-				height: 4em;
-				width: 6em;
-			}
-
-				#titleBar .toggle:before {
-					font-size: 14px;
-					width: 44px;
-				}
-
 			body.header-visible #wrapper, body.header-visible #titleBar {
 				-moz-transform: translateX(17em);
 				-webkit-transform: translateX(17em);
