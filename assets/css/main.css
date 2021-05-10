@@ -3314,4 +3314,7 @@ input, select, textarea {
 		padding-left: 1em;
 		padding-right: 1em;
 	}
+	.about-blurb {
+		margin-bottom: 2.25em;
+	}
 }
