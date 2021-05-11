@@ -3308,6 +3308,14 @@ input, select, textarea {
 	padding-right: 1.5em;
 }
 
+.contact-list {
+	list-style: none;
+}
+
+.contact-list i {
+	margin-right: 5px;
+}
+
 @media screen and (max-width: 736px) {
 	.skill-icon {
 		width: 33%;
