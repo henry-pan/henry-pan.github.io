@@ -3045,6 +3045,7 @@ input, select, textarea {
 					padding: 0 6em;
 					width: 100%;
 					text-align: left;
+					white-space: nowrap;
 				}
 
 					#titleBar .title a {
