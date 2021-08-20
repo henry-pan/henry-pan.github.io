@@ -5,6 +5,7 @@ html, body {
 }
 
 body {
+  background-color: #666699;
   background-image: linear-gradient(45deg, #666699 0%, #b68ba5 100%);
   background-attachment: fixed;
   font-family: 'Quicksand', sans-serif;
