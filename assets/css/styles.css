@@ -1,8 +1,8 @@
 @import url("fontawesome-all.min.css");
 
-html, body {
-  height: 100%;
-}
+/* html, body {
+  height: 100vh;
+} */
 
 body {
   background-color: #666699;
@@ -112,6 +112,10 @@ h3 {
   box-sizing: border-box;
   font-size: 27px;
   text-align: center;
+}
+
+.button.notfound {
+  max-width: max-content;
 }
 
 .icon:before {
