@@ -3,4 +3,5 @@
 Live: [www.henry-pan.com](https://www.henry-pan.com)
 
 My porfolio site, containing some projects I've worked on.
-Site design by me.
+
+Site design (HTML/CSS) by me.
